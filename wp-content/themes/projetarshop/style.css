@@ -12,18 +12,17 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: e-commerce , custom-menu, custom-logo, featured-images, footer-widgets, theme-options, translation-ready, blog, right-sidebar
 */
-
-.top-bar{
-	background: red;
-	height: 70px;
+/* Header - Main Menu */
+.main-menu{
+    padding: 0;
 }
 
-.brand{
-	background: green;
-}
-
-.second-column{
-	background: yellow;
+.main-menu ul{  
+    padding: 0; 
+    margin: 0; 
+    font-size: 18px; 
+    font-weight: 500; 
+    border-radius: 0;    
 }
 
 .main-menu ul li{ 
@@ -31,10 +30,32 @@ Tags: e-commerce , custom-menu, custom-logo, featured-images, footer-widgets, th
     margin: 0 5px 0 0;
 }
 
-.main-menu ul{ 
+.main-menu ul li:last-child{ 
+    margin: 0; 
+}
+
+/* Footer - Footer Menu */
+.footer-menu ul, .footer-widgets ul{ 
+    list-style: none; 
     padding: 0; 
     margin: 0; 
-    font-size: 18px; 
-    font-weight: 500; 
-    border-radius: 0;    
+    font-size: 16px; 
+}
+
+.footer-menu ul li{ 
+    display: inline; 
+    margin: 0 10px 0 0;
+}
+
+.footer-menu ul li:last-child{ 
+    margin: 0; 
+}
+
+.footer-menu ul li a{ 
+    color: #939393; 
+    text-decoration: none;
+}
+
+.footer-menu ul li.current-menu-item a{ 
+    color: #ff9292; 
 }
