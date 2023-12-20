@@ -1,5 +1,4 @@
-﻿<?php get_header();
-?>
+﻿<?php get_header(); ?>
 		<div class="content-area">
 			<main>
 				<section class="slider">Slider</section>
