@@ -64,6 +64,24 @@ Tags: e-commerce , custom-menu, custom-logo, featured-images, footer-widgets, th
 
 /* WooCommerce */
 
+/* Grid System */
+
+.woocommerce .col2-set .col-1,
+.woocommerce .col2-set .col-2{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+@media all and (max-width: 767px) {
+
+    .woocommerce .col2-set .col-1,
+    .woocommerce .col2-set .col-2{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+}
+
 /* Shop */
 
 .shop-content{
@@ -283,9 +301,27 @@ Tags: e-commerce , custom-menu, custom-logo, featured-images, footer-widgets, th
     background-color: #ffe252;
 }
 
+/* Cart */
+
 .woocommerce-cart table.cart td.actions .coupon .input-text{
     width: 150px;
 }
+
+/* Checkout */
+.woocommerce form .form-row {
+    display: block;
+}
+.woocommerce-checkout #customer_details{
+    margin-bottom: 20px;
+}
+.woocommerce table.shop_table{
+    border-collapse: collapse;
+}
+.woocommerce table.shop_table thead{
+    background-color: #D2335B;
+    color: #fff;
+}
+
 
 /* General */
 .size-auto, 

@@ -41,7 +41,11 @@
 add_action( 'after_setup_theme', 'projetarshop_config', 0 );
 
 
-require get_template_directory() . '/inc/wc-modifications.php';
+add_action( 'after_setup_theme', 'projetarshop_config', 0 );
+if( class_exists( 'WooCommerce' )){
+	require get_template_directory() . '/inc/wc-modifications.php';
+}
+
 
 
 

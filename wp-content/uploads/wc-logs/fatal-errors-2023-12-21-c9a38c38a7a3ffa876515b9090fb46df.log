@@ -6,3 +6,143 @@ Stack trace:
 #3 {main}
   thrown, em C:\xampp\htdocs\estudo_wordpress\wp-content\themes\projetarshop\woocommerce\archive-product.php, na linha 31
 
+2023-12-21T14:58:48+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "fancy_lab_config" not found or invalid function name in C:\xampp\htdocs\estudo_wordpress\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\estudo_wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\estudo_wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\estudo_wordpress\wp-settings.php(621): do_action('after_setup_the...')
+#3 C:\xampp\htdocs\estudo_wordpress\wp-config.php(100): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\estudo_wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\estudo_wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown, em C:\xampp\htdocs\estudo_wordpress\wp-includes\class-wp-hook.php, na linha 324
+
+2023-12-21T16:10:47+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "fancy_lab_config" not found or invalid function name in C:\xampp\htdocs\estudo_wordpress\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\estudo_wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\estudo_wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\estudo_wordpress\wp-settings.php(621): do_action('after_setup_the...')
+#3 C:\xampp\htdocs\estudo_wordpress\wp-config.php(100): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\estudo_wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\estudo_wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\estudo_wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown, em C:\xampp\htdocs\estudo_wordpress\wp-includes\class-wp-hook.php, na linha 324
+
+2023-12-21T16:10:47+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "fancy_lab_config" not found or invalid function name in C:\xampp\htdocs\estudo_wordpress\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\estudo_wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\estudo_wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\estudo_wordpress\wp-settings.php(621): do_action('after_setup_the...')
+#3 C:\xampp\htdocs\estudo_wordpress\wp-config.php(100): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\estudo_wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\estudo_wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\estudo_wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown, em C:\xampp\htdocs\estudo_wordpress\wp-includes\class-wp-hook.php, na linha 324
+
+2023-12-21T16:10:47+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "fancy_lab_config" not found or invalid function name in C:\xampp\htdocs\estudo_wordpress\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\estudo_wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\estudo_wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\estudo_wordpress\wp-settings.php(621): do_action('after_setup_the...')
+#3 C:\xampp\htdocs\estudo_wordpress\wp-config.php(100): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\estudo_wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\estudo_wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\estudo_wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown, em C:\xampp\htdocs\estudo_wordpress\wp-includes\class-wp-hook.php, na linha 324
+
+2023-12-21T16:10:47+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "fancy_lab_config" not found or invalid function name in C:\xampp\htdocs\estudo_wordpress\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\estudo_wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\estudo_wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\estudo_wordpress\wp-settings.php(621): do_action('after_setup_the...')
+#3 C:\xampp\htdocs\estudo_wordpress\wp-config.php(100): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\estudo_wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\estudo_wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\estudo_wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown, em C:\xampp\htdocs\estudo_wordpress\wp-includes\class-wp-hook.php, na linha 324
+
+2023-12-21T16:10:47+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "fancy_lab_config" not found or invalid function name in C:\xampp\htdocs\estudo_wordpress\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\estudo_wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\estudo_wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\estudo_wordpress\wp-settings.php(621): do_action('after_setup_the...')
+#3 C:\xampp\htdocs\estudo_wordpress\wp-config.php(100): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\estudo_wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\estudo_wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown, em C:\xampp\htdocs\estudo_wordpress\wp-includes\class-wp-hook.php, na linha 324
+
+2023-12-21T16:10:47+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "fancy_lab_config" not found or invalid function name in C:\xampp\htdocs\estudo_wordpress\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\estudo_wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\estudo_wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\estudo_wordpress\wp-settings.php(621): do_action('after_setup_the...')
+#3 C:\xampp\htdocs\estudo_wordpress\wp-config.php(100): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\estudo_wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\estudo_wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown, em C:\xampp\htdocs\estudo_wordpress\wp-includes\class-wp-hook.php, na linha 324
+
+2023-12-21T16:10:50+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "fancy_lab_config" not found or invalid function name in C:\xampp\htdocs\estudo_wordpress\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\estudo_wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\estudo_wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\estudo_wordpress\wp-settings.php(621): do_action('after_setup_the...')
+#3 C:\xampp\htdocs\estudo_wordpress\wp-config.php(100): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\estudo_wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\estudo_wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown, em C:\xampp\htdocs\estudo_wordpress\wp-includes\class-wp-hook.php, na linha 324
+
+2023-12-21T16:10:52+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "fancy_lab_config" not found or invalid function name in C:\xampp\htdocs\estudo_wordpress\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\estudo_wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\estudo_wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\estudo_wordpress\wp-settings.php(621): do_action('after_setup_the...')
+#3 C:\xampp\htdocs\estudo_wordpress\wp-config.php(100): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\estudo_wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\estudo_wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\estudo_wordpress\wp-admin\plugins.php(10): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown, em C:\xampp\htdocs\estudo_wordpress\wp-includes\class-wp-hook.php, na linha 324
+
+2023-12-21T16:10:56+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "fancy_lab_config" not found or invalid function name in C:\xampp\htdocs\estudo_wordpress\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\estudo_wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\estudo_wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\estudo_wordpress\wp-settings.php(621): do_action('after_setup_the...')
+#3 C:\xampp\htdocs\estudo_wordpress\wp-config.php(100): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\estudo_wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\estudo_wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\estudo_wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown, em C:\xampp\htdocs\estudo_wordpress\wp-includes\class-wp-hook.php, na linha 324
+
+2023-12-21T16:11:29+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "fancy_lab_config" not found or invalid function name in C:\xampp\htdocs\estudo_wordpress\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\estudo_wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\estudo_wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\estudo_wordpress\wp-settings.php(621): do_action('after_setup_the...')
+#3 C:\xampp\htdocs\estudo_wordpress\wp-config.php(100): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\estudo_wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\estudo_wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\estudo_wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown, em C:\xampp\htdocs\estudo_wordpress\wp-includes\class-wp-hook.php, na linha 324
+
+2023-12-21T16:12:18+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "fancy_lab_config" not found or invalid function name in C:\xampp\htdocs\estudo_wordpress\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\estudo_wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\estudo_wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\estudo_wordpress\wp-settings.php(621): do_action('after_setup_the...')
+#3 C:\xampp\htdocs\estudo_wordpress\wp-config.php(100): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\estudo_wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\estudo_wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\estudo_wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown, em C:\xampp\htdocs\estudo_wordpress\wp-includes\class-wp-hook.php, na linha 324
+
