@@ -5,11 +5,17 @@
 	wp_enqueue_style( 'bootstrap-css', get_template_directory_uri() . '/inc/bootstrap.min.css', array(), '4.4.1', 'all' );
  	// Theme's main stylesheet
  	wp_enqueue_style( 'projetarshop-style', get_stylesheet_uri(), array(), filemtime( get_template_directory() . '/style.css' ), 'all' );
+	// Google Fonts
+ 	wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css?family=Rajdhani:400,500,600,700|Seaweed+Script');
  }
  add_action( 'wp_enqueue_scripts', 'projetarshop_scripts' );
 
 
  function projetarshop_config(){
+
+	// Bootstrap Menu
+	require_once get_template_directory() . '/inc/class-wp-bootstrap-navwalker.php';
+
 	//Para registrar o seu menu
 	register_nav_menus(
 		array(
