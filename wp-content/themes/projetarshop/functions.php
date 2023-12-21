@@ -17,7 +17,7 @@
 			'projetarshop_footer_main_menu'	=> 'Projetarshop Footer Menu',
 		)
 	);
-
+	//adicionando suporte ao woocommerce
 	add_theme_support('woocommerce');
 }
 add_action( 'after_setup_theme', 'projetarshop_config', 0 );
