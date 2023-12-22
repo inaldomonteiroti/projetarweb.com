@@ -4,14 +4,16 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="profile" href="https://gmpg.org/xfn/11" />
-    <?php wp_head();?>
+	<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
 	<div id="page" class="site">
 		<header>
 			<section class="search">
 				<div class="container">
-					Pesquisa
+					<div class="text-center d-md-flex align-items-center">
+						<?php get_search_form(); ?>
+					</div>
 				</div>
 			</section>
 			<section class="top-bar">
@@ -20,7 +22,12 @@
 						<div class="brand col-md-3 col-12 col-lg-2 text-center text-md-left">Logo</div>
 						<div class="second-column col-md-9 col-12 col-lg-10">
 							<div class="row">
-								<div class="account col-12">Conta</div>
+								<div class="account col-12">
+									<div class="cart text-right">
+										<a href="<?php echo wc_get_cart_url(); ?>"><span class="cart-icon"></span></a>
+										<span class="items"><?php echo WC()->cart->get_cart_contents_count(); ?></span>
+									</div>
+								</div>
 								<div class="col-12">
 									<nav class="main-menu navbar navbar-expand-md navbar-light" role="navigation">
 									    <!-- Brand and toggle get grouped for better mobile display -->

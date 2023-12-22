@@ -81,6 +81,26 @@ body{
   display: block;
 }
 
+/* Search Form */
+
+.search-form button{
+    background-image: url('img/search.svg');
+    height: 23px;
+    width: 23px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none; 
+}
+
+.search-form input[type="search"]{
+    background-color: #fff;
+    border: none;
+    font-weight: 500;
+    font-size: 110%;
+    padding: 0.3rem 1rem;
+    margin-right: 0.3rem;
+}
+
 /* Footer - Footer Menu */
 .footer-menu ul, .footer-widgets ul{ 
     list-style: none; 

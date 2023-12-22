@@ -1,6 +1,4 @@
-﻿<?php
-get_header();
-?>
+﻿<?php get_header(); ?>
 		<div class="content-area">
 			<main>
 				<div class="container">
